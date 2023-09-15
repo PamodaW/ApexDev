@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_is_that_a_carve_out_plan</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(Is_this_a_carve_out_plan__c,&apos;No&apos;))</errorConditionFormula>
+    <errorDisplayField>Payer__c</errorDisplayField>
+    <errorMessage>Check is that a carve out plan?</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<apex:page standardController="Lead" extensions="InsuranceInformation">
+    <apex:pageBlock title="Lead Insurance Information">
+        <apex:pageBlockTable value="{!leadClientList}" var="lc">
+            <apex:column value="{!lc.Lead__c}" />
+            <!-- Add more columns for other insurance fields as needed -->
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

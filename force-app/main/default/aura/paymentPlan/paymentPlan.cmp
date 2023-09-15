@@ -1,0 +1,4 @@
+<aura:component controller ="paymentPlanController" implements="flexipage:availableForAllPageTypes" >
+    <button class="slds-button slds-button_brand">Private Pay</button>
+    <button class="slds-button slds-button_brand">Insured Pay</button>
+</aura:component>
